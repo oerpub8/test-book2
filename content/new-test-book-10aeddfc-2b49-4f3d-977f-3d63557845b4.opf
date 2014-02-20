@@ -3,6 +3,14 @@
     <dc:identifier id="uid">new-test-book-7a740a28-38e8-4e21-94c4-d4e67b5f5a81</dc:identifier>
     <dc:title>New test book</dc:title>
       <date opf:event="publication" xmlns:opf="http://www.idpf.org/2007/opf">2014-2-20</date>
+    <dc:description>A little summary</dc:description>
+    <dc:language xsi:type="dcterms:RFC4646" xmlns:xsi="http://www.idpf.org/2007/opf">en</dc:language>
+    <dc:rights>Creative Commons Attribution-ShareAlike - CC BY-SA</dc:rights>
+    <meta property="lrmi:useRightsUrl">http://creativecommons.org/licenses/by-sa/3.0/</meta>
+    <meta properties="dcterms:modified">2014-2-20</meta>
+    <dc:subject xsi:type="http://github.com/Connexions/rhaptos.cnxmlutils/rhaptos/cnxmlutils/schema" xmlns:xsi="http://www.idpf.org/2007/opf">math</dc:subject>
+    <dc:creator id="author-1" opf:file-as="Fletcher, Kathi" xmlns:opf="http://www.idpf.org/2007/opf">Kathi Fletcher</dc:creator>
+    <meta xmlns="http://www.w3.org/1999/xhtml" refines="#author-1" property="role" scheme="marc:relators">aut</meta>
 </metadata>
   <manifest><item href="new-test-book-ab6bc39f-4574-46da-80a2-b4ec3eb35583-nav.html" id="new-test-book-ab6bc39f-4574-46da-80a2-b4ec3eb35583-nav.html" media-type="application/xhtml+xml" properties="nav"/><item href="module1-bb3679ae-f74c-4873-93c6-a571cab33faf.html" id="module1-bb3679ae-f74c-4873-93c6-a571cab33faf.html" media-type="application/xhtml+xml" properties="mathml scripted"/></manifest>
   <spine><itemref xmlns="http://www.w3.org/1999/xhtml" idref="module1-bb3679ae-f74c-4873-93c6-a571cab33faf.html"></itemref></spine>
