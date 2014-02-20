@@ -1,5 +1,3 @@
 <container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container">
-   <rootfiles>
-      <rootfile full-path="content/mybook.opf" media-type="application/oebps-package+xml"></rootfile>
-   </rootfiles>
+   <rootfiles><rootfile media-type="application/oebps-package+xml" full-path="content/mybook.opf" version="1.0"></rootfile><rootfile media-type="application/oebps-package+xml" full-path="content/new-test-book-10aeddfc-2b49-4f3d-977f-3d63557845b4.opf" version="1.0"></rootfile></rootfiles>
 </container>
